@@ -2,9 +2,8 @@ from array import *
 
 val = array('i',[1,2,3,4,5,6])
 
-val.insert(1,50)
-val.append(100)
-val
+# val.insert(1,50)
+# val.append(100)
 
 ''' for i in range(0,len(val)):
     print(val[i] , end =" ")
@@ -23,3 +22,9 @@ print('\n')
 # for i in range(0,len(val)):
     # print(val[i] , end = ' ') '''
 
+copyArray = array(val.typecode, (x*3 for x in val)) 
+
+copyArray.pop(3)
+
+for i in range(0,len(copyArray)):
+    print(copyArray[i] , end = ' ')
