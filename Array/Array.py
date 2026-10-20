@@ -27,7 +27,7 @@ print('\n')
 copyArray.pop(3)
 
 for i in range(0,len(copyArray)):
-    print(copyArray[i] , end = ' ') '''
+    print(copyArray[i] , end = ' ')
 
 # sliing methode
 
@@ -35,5 +35,5 @@ val = array('i',[1,2,3,4,5,6,7,8,9])
 
 abc = val[:: -1]
 
-print(abc)
+print(abc) '''
 
