@@ -4,9 +4,9 @@ from numpy import *
 #val = linspace(10,11,11)
 #val = range(10,20,2)
 #val = logspace(10,20,2)
-val = zeros(10)
+#val = zeros(10)
 #val = ones(10)
-#val = logspace(10,20,2)
+val = full(10,2)
 
 for x in val:
     print(x, end= " ")
