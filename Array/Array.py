@@ -48,5 +48,13 @@ for i in range(0, n):
 
 for x in arr:
     print(x, end=" ")
-''' 
 
+# Finding array with index function 
+
+arr = array( 'i',[12,23,45,234,145,89])
+
+i = arr.index(645)
+
+print(i)
+
+'''
