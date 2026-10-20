@@ -35,5 +35,18 @@ val = array('i',[1,2,3,4,5,6,7,8,9])
 
 abc = val[:: -1]
 
-print(abc) '''
+print(abc) 
+
+# Taking a input from the user 
+
+arr = array( 'i' , [] )
+
+n = int(input("Enter a number "))
+
+for i in range(0, n):
+    arr.append(int(input("Enter next input ")))
+
+for x in arr:
+    print(x, end=" ")
+''' 
 
